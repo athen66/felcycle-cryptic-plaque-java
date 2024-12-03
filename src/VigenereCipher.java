@@ -1,4 +1,4 @@
-public class VignereCipher {
+public class VigenereCipher {
     public static String encrypt(String plaintext, String key) {
         StringBuilder ciphertext = new StringBuilder();
         int keyIndex = 0;  // To track the position of the key

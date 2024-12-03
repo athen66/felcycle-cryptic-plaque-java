@@ -39,8 +39,8 @@ public class Felcycle {
             // SWAP THESE TO TEST EACH CIPHER
 //            forwardAdjustments.add(new Tuple<>(adjustingForward, PlayfairCipher.encrypt(adjustingForward, key)));
 //            backwardAdjustments.add(new Tuple<>(adjustingBackward, PlayfairCipher.encrypt(adjustingBackward, key)));
-            forwardAdjustments.add(new Tuple<>(adjustingForward, VignereCipher.encrypt(adjustingForward, key)));
-            backwardAdjustments.add(new Tuple<>(adjustingBackward, VignereCipher.encrypt(adjustingBackward, key)));
+            forwardAdjustments.add(new Tuple<>(adjustingForward, VigenereCipher.encrypt(adjustingForward, key)));
+            backwardAdjustments.add(new Tuple<>(adjustingBackward, VigenereCipher.encrypt(adjustingBackward, key)));
         }
         allAdjustments.addAll(forwardAdjustments);
         allAdjustments.addAll(backwardAdjustments);
