@@ -8,4 +8,6 @@ This is a fairly simple Java application that will perform the following in orde
 
 The WordFinder algorithm is fairly inefficient, possibly taking a few minutes to run.
 
+Also, the `output.txt` file will be placed in the current working directory of where you define it in your runner of your IDE or where you run Felcycle.main().  And the `dictionary.txt` file is assumed to be in your defined current working directory as well.
+
 I've taken this as far as I probably will.  If anyone wishes to take this further, please do!
